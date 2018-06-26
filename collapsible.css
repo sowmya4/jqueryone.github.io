@@ -1,0 +1,36 @@
+:root {
+  font-size: 1vmax; 
+}
+.contain{
+     margin: auto;
+     border: 2px ridge;  
+     width:50vw;
+     border-radius:5px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+   width:100%;
+   height:5vw;
+   border-bottom: 2px ridge; 
+   color:#1E90FF;
+   font-size:1rem;
+   text-decoration: underline;
+   background-color: rgba(0,0,0,.03);
+   line-height: 5em;
+
+
+   
+}
+.main-head{
+    padding: 1vw;
+    display:inline;
+   
+}
+.para{
+    width: 100%;
+   margin-top:0;
+   display:none;
+   font-size:1.5rem;
+   padding:3px;
+}

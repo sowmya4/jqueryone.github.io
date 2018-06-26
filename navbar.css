@@ -1,0 +1,97 @@
+:root {
+  font-size: 1vmax; 
+}
+nav{
+  display:flex;
+  flex-direction:row;
+ width:80vw;
+ min-height: 15vh;
+ background-color:  rgba(0,0,0,.03);
+ 
+}
+.myImg{
+  display:none;
+}
+/*a:hover{
+  color:#000000;
+}*/
+.setcolor{
+  color: #808080;
+  font-size: 1.5rem;
+  padding:3px;
+  line-height:3rem;
+  margin-right:5px;
+}
+.setLine{
+  color: black;
+  font-size: 1.8rem;
+  padding-left:5px;
+  padding-right: auto;
+  line-height:5rem;
+}
+a{
+  text-decoration: none;
+}
+.myForm{
+  margin-left:auto;
+  margin-right: 10px;
+ justify-content:flex-end;
+  line-height:5rem;   
+} 
+#dropdwn{
+  cursor: pointer;
+}
+  #dropdwn::after{
+
+content:url(downarrow.png);
+}
+.dropdown-elements{
+  display: none;
+  background-color: #FDFEFE;
+  position:absolute;
+  width:15vmax;
+  height:10vmax;
+  font-size: 1.5rem;   
+  border: 1px solid;
+  line-height: 1.5rem;
+  z-index: 1;
+}
+.setDisp{
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 2rem;
+}
+.isDisabled {
+    color: #dddddd;
+}
+.button1 {
+    height:3rem;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+}
+.buttoninactive{
+  background-color: white; 
+  color: green; 
+} 
+.buttoninactive:hover{
+  background-color: green; 
+  color:white;
+}
+.drop-ref{
+  display:block;
+}
+@media only screen and (max-width: 993px) {
+    .myForm{
+      display: none;
+    }
+    .setDisp{
+      
+      flex-direction: column;
+    }
+    .myImg{
+      display:block;
+      margin-left: auto;
+      width:3vw;
+    }
+}
